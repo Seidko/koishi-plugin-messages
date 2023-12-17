@@ -1,20 +1,40 @@
 {
-  "name": "koishi-plugin-messages",
-  "description": "Messages storage service for koishi",
+  "name": "@seidko/koishi-plugin-messages",
+  "description": "Message storage plugins for koishi.",
   "version": "0.0.1",
   "main": "lib/index.js",
+  "module": "lib/index.mjs",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
+  "author": "Seidko <seidko.coding@gmail.com>",
   "license": "MIT",
-  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seidko/koishi-plugin-messages.git",
+    "directory": "packages/messages"
+  },
+  "bugs": {
+    "url": "https://github.com/seidko/koishi-plugin-messages/issues"
+  },
+  "homepage": "https://github.com/seidko/koishi-plugin-messages",
   "keywords": [
+    "bot",
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "message",
+    "service",
+    "database"
   ],
+  "koishi": {
+    "description": {
+      "en": "Message storage plugins for koishi.",
+      "zh": "koishi 消息存储组件。"
+    }
+  },
   "peerDependencies": {
     "koishi": "^4.16.1"
   }
